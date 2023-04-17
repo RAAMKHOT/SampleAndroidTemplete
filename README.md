@@ -1,1 +1,1 @@
-# SampleAndroidTemplete
+# Sample Android Templete
