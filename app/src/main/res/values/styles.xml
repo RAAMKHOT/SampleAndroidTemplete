@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="actionModeStyle">@style/LStyled.ActionMode</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:dropDownListViewStyle">@style/AppDropDownListViewStyle</item>
+        <item name="android:actionModeBackground">@color/red</item>
+        <item name="actionModeBackground">@color/theme_color_primary</item>
+        <item name="android:editTextColor">@color/text_color</item>
+        <item name="android:textColorPrimary">@color/text_color</item>
+        <item name="android:textColorSecondary">@color/text_color</item>
+    </style>
+
+    <!-- Second Activity application theme -->
+    <style name="LStyled.ActionMode" parent="@style/Widget.AppCompat.ActionMode">
+        <item name="background">@color/theme_color_primary</item>
+    </style>
+
+    <style name="AppDropDownListViewStyle" parent="Widget.AppCompat.ListView.DropDown">
+        <item name="android:divider">@color/lightGray</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+    <style name="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:width">60dp</item>
+        <item name="android:height">100dp</item>
+        <item name="marginHorizontal">0dp</item>
+        <item name="shapeAppearance">
+            @style/ShapeAppearance.Material3.NavigationBarView.ActiveIndicator
+        </item>
+        <item name="android:color">@android:color/transparent</item>
+    </style>
+
+</resources>

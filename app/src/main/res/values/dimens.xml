@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="dimen_5">5dip</dimen>
+    <dimen name="dimen_6">6dip</dimen>
+    <dimen name="dimen_10">10dip</dimen>
+    <dimen name="dimen_20">20dip</dimen>
+    <dimen name="dimen_25">25dip</dimen>
+    <dimen name="dimen_30">30dip</dimen>
+
+    <dimen name="dimen_40">40dip</dimen>
+    <dimen name="dimen_60">60dip</dimen>
+    <dimen name="dimen_75">75dip</dimen>
+    <!--text size-->
+    <dimen name="textsize_10">10sp</dimen>
+    <dimen name="textsize_14">14sp</dimen>
+    <dimen name="textsize_16">16sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!--zyter.infinite.com.apprtc-->
+    <!--Video Call-->
+
+    <!--<dimen name="design_navigation_separator_vertical_padding">0dp</dimen>-->
+    <dimen name="design_navigation_icon_padding" tools:override="true">15dp</dimen>
+
+    <!-- pinview values -->
+
+
+    <!-- <dimen name="bottom_navigation_icon_size" tools:override="true">35dp</dimen>
+     <dimen name="design_bottom_navigation_height" tools:override="true">65dp</dimen>
+     <dimen name="design_navigation_icon_size" tools:override="true">30dp</dimen>
+     <dimen name="design_bottom_navigation_text_size" tools:override="true">12sp</dimen>
+     <dimen name="design_bottom_navigation_active_text_size" tools:override="true">12sp</dimen>-->
+    <!--        FONTS DIMEN           -->
+
+    <!--Conference call values-->
+
+
+    <!--Conference call 8 inch Tablet UI values START-->
+
+    <!--Conference call 8 inch Tablet UI values END-->
+
+    <!--Conference call 10 inch Tablet UI values START-->
+
+    <!--Conference call 10 inch Tablet UI values END-->
+
+    <!--Conference call 7 inch Tablet UI values START-->
+
+    <!--Conference call 7 inch Tablet UI values END-->
+
+    <!--Dashboard sizes-->
+</resources>

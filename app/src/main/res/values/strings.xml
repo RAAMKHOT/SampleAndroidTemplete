@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Sample Template</string>
+
+    <!--<string name="title_activity_login">ZYTER_S)1</string>-->
+
+    <!--<string name="app_name_user_offline">UCI (Offline)</string>-->
+
+    <!-- Strings related to login -->
+
+    <!--<string name="userid_error_domain"> Enter user ID in the required format(domain\\user ID or email ID).</string>-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <!--<string name="status_text">Status Text</string>-->
+
+
+    <!--    <string name="title_secure_file_share">File Sharing</string>-->
+
+
+    <!--<string name="photo">PHOTO</string>-->
+
+    F
+
+
+    F
+    F
+
+
+    <string name="copyroght">\u00a9 Zyter Inc 2023</string>
+
+    <!-- zyter.infinite.com.apprtc -->
+
+    <!-- Settings strings. -->
+
+
+    <!-- IOT -->
+
+    <!-- Menu items -->
+    <!--End-->
+    <!--End-->CropImageView
+
+    <!-- theme change -->
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+
+    <!-- Example settings for Data & Sync -->
+
+    <!-- Example settings for Notifications -->
+
+    <!--<string name="slide_2_desc">Seamless integration with your systems for effective communication</string>-->
+
+    <!--<string name="slide_3_desc">Offers a highly personalized and intuitive navigation to keep users active and engaged</string>-->
+
+    <!--<string name="slide_4_desc">State-of-the art technology to protect your data</string>-->
+
+    <!--<string name="slide_5_desc">Built-in intelligent for a compelling engagement</string>-->
+
+    <string name="user_name">User name</string>
+
+    <!-- Pinview values -->
+    <!--End-->
+
+    <!--<string name="domain_username_or_email">domain\\username or email...</string>-->
+    <string name="pasword_hint">Password</string>
+    <string name="forgot_password_hint">Forgot password?</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="fingerprint">Fingerprint</string>
+    <string name="login">LOGIN</string>
+    <!--Patient App Home screen Fragments names-->
+    <string name="care_screen">Care</string>
+</resources>

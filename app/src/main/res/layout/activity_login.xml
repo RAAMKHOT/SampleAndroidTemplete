@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/dimen_20"
+            android:background="@color/white_transparent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_60"
+                android:layout_marginTop="@dimen/dimen_75"
+                android:layout_marginEnd="@dimen/dimen_40"
+                android:src="@drawable/ic_healthconnect"
+                android:contentDescription="@string/login" />
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_10"
+                android:layout_marginTop="@dimen/dimen_25"
+                android:layout_marginRight="@dimen/dimen_10">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/dimen_40"
+                        android:layout_marginTop="@dimen/dimen_10"
+                        android:layout_marginEnd="@dimen/dimen_30"
+                        android:layout_marginBottom="@dimen/dimen_10"
+                        android:background="@drawable/edit_text_bg"
+                        android:drawableStart="@drawable/ic_defoult_user"
+                        android:drawablePadding="10dp"
+                        android:hint="@string/user_name"
+                        android:inputType="textNoSuggestions"
+                        android:padding="10dp"
+                        android:singleLine="true"
+                        android:tag="notanerror"
+                        android:textColor="@color/text_color"
+                        android:textColorHint="@color/text_color"
+                        android:textSize="@dimen/textsize_16" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/dimen_40"
+                        android:layout_marginTop="@dimen/dimen_20"
+                        android:layout_marginEnd="@dimen/dimen_30"
+                        android:layout_marginBottom="@dimen/dimen_10">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edit_text_bg"
+                            android:drawableStart="@drawable/ic_password_lock"
+                            android:drawablePadding="10dp"
+                            android:hint="@string/pasword_hint"
+                            android:inputType="textPassword"
+                            android:padding="@dimen/dimen_10"
+                            android:singleLine="true"
+                            android:tag="notanerror"
+                            android:textColor="@color/text_color"
+                            android:textColorHint="@color/text_color"
+                            android:textSize="@dimen/textsize_16" />
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="@dimen/dimen_10"
+                            android:layout_marginTop="@dimen/dimen_10"
+                            android:layout_marginEnd="@dimen/dimen_10"
+                            android:layout_marginBottom="@dimen/dimen_10"
+                            android:src="@drawable/ic_eye_hide"
+                            app:tint="@color/default_orange" />
+                    </RelativeLayout>
+
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginTop="@dimen/dimen_20"
+                        android:layout_marginEnd="@dimen/dimen_25"
+                        android:layout_marginBottom="10dp"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:showText="false"
+                        android:text="@string/fingerprint"
+                        android:textColor="@color/text_color"
+                        android:visibility="gone"
+                        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="@dimen/dimen_10"
+                        android:layout_marginEnd="@dimen/dimen_30"
+                        android:focusableInTouchMode="false"
+                        android:text="@string/forgot_password_hint"
+                        android:textAllCaps="false"
+                        android:textColor="@color/contactname"
+                        android:textSize="@dimen/textsize_14"
+                        android:visibility="visible" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_40"
+                        android:layout_marginRight="@dimen/dimen_40"
+                        android:paddingTop="@dimen/dimen_20"
+                        android:weightSum="100">
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/dimen_10"
+                            android:layout_weight="100"
+                            android:background="@drawable/rounded_blue"
+                            android:gravity="center"
+                            android:text="@string/login"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textsize_14" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_5"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/textsize_10" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dimen_5"
+                android:text="@string/copyroght"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/textsize_10" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<color name="colorAccent">#16A070</color>
+    <color name="colorPrimary">#3394FF</color>
+    <color name="colorPrimaryDark">#16A070</color>-->
+
+    <color name="colorAccent">#f5c150</color>
+    <color name="colorPrimary">#FBC02D</color>
+    <color name="colorPrimaryDark">#99f5c150</color>
+
+    <color name="lightGray">#D3D3D3</color>
+    <!--new design-->
+
+    <color name="theme_color_primary">#FBC02D</color>
+    <color name="text_color">#686868</color>
+    <color name="contactname">#4f4f4f</color>
+    <color name="white">#ffffff</color>
+
+    <color name="gray_dark">#999999</color>
+    <!-- theme color -->
+
+    <color name="red">#F44336</color>
+
+    <!-- theme color START -->
+    <!--veniceblue-->
+    <color name="veniceblue">#0054a4</color>
+
+    <!--default-->
+    <color name="default_orange">#f5c150</color>
+
+    <!--facebook-->
+    <color name="facebook">#3b5998</color>
+
+    <!--navy-->
+    <color name="navy">#2c3e50</color>
+
+
+    <!--turquoise-->
+    <color name="turquoise">#16A085</color>
+
+    <!--Dark-->
+    <color name="dark">#121212</color>
+    <!-- theme color END -->
+
+    <color name="white_transparent">#D9FFFFFF</color>
+
+
+    <!--<color name="event_color_02">#f57f68</color>-->
+    <!-- <color name="event_color_04">#f8b552</color>-->
+
+
+</resources>
