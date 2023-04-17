@@ -1,1 +1,1 @@
-# Sample Android Templete
+# Sample Android Template
