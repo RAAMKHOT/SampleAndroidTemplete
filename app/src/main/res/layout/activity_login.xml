@@ -23,8 +23,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/dimen_60"
                 android:layout_marginEnd="@dimen/dimen_40"
-                android:src="@drawable/company_logo"
-                android:contentDescription="@string/login" />
+                android:contentDescription="@string/login"
+                android:src="@drawable/company_logo" />
 
 
             <RelativeLayout
@@ -53,8 +53,8 @@
                         android:padding="10dp"
                         android:singleLine="true"
                         android:tag="notanerror"
-                        android:textColor="@color/text_color"
-                        android:textColorHint="@color/text_color"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/hint"
                         android:textSize="@dimen/textsize_16" />
 
                     <RelativeLayout
@@ -66,6 +66,7 @@
                         android:layout_marginBottom="@dimen/dimen_10">
 
                         <EditText
+                            android:id="@+id/editTextPassword"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@drawable/edit_text_bg"
@@ -76,11 +77,13 @@
                             android:padding="@dimen/dimen_10"
                             android:singleLine="true"
                             android:tag="notanerror"
-                            android:textColor="@color/text_color"
-                            android:textColorHint="@color/text_color"
-                            android:textSize="@dimen/textsize_16" />
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/hint"
+                            android:textSize="@dimen/textsize_16"
+                            android:autofillHints="" />
 
                         <ImageView
+                            android:id="@+id/imageViewPasswordVisible"
                             android:layout_width="25dp"
                             android:layout_height="25dp"
                             android:layout_alignParentEnd="true"
@@ -89,7 +92,8 @@
                             android:layout_marginEnd="@dimen/dimen_10"
                             android:layout_marginBottom="@dimen/dimen_10"
                             android:src="@drawable/ic_eye_hide"
-                            app:tint="@color/default_orange" />
+                            app:tint="@color/default_orange"
+                            android:contentDescription="@string/app_name" />
                     </RelativeLayout>
 
                     <Switch
@@ -129,7 +133,7 @@
                         android:weightSum="100">
 
                         <Button
-                            android:layout_width="match_parent"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:layout_marginStart="@dimen/dimen_10"
@@ -147,8 +151,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_alignParentBottom="true"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
 
             <TextView
                 android:layout_width="0dp"
@@ -163,7 +167,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/dimen_5"
-                android:text="@string/copyroght"
+                android:text="@string/copyright"
                 android:textColor="@color/text_color"
                 android:textSize="@dimen/textsize_10" />
         </LinearLayout>

@@ -16,6 +16,8 @@
     <color name="text_color">#686868</color>
     <color name="contactname">#4f4f4f</color>
     <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="hint">#999999</color>
 
     <color name="gray_dark">#999999</color>
     <!-- theme color -->
