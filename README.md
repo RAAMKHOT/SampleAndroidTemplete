@@ -1,7 +1,7 @@
 # Sample Android Template
 
 Splash Screen :
-<img alt="image" height="120" src="https://user-images.githubusercontent.com/15859954/233366925-67c9e5c5-1021-43d1-8e65-0b8453b96e4f.png" width="80"/>
+<img alt="image" height="250" src="https://user-images.githubusercontent.com/15859954/233366925-67c9e5c5-1021-43d1-8e65-0b8453b96e4f.png" width="150"/>
 
 
 Login Screen :
