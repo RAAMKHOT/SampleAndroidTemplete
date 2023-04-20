@@ -22,9 +22,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/dimen_60"
-                android:layout_marginTop="@dimen/dimen_75"
                 android:layout_marginEnd="@dimen/dimen_40"
-                android:src="@drawable/ic_healthconnect"
+                android:src="@drawable/company_logo"
                 android:contentDescription="@string/login" />
 
 
@@ -32,7 +31,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/dimen_10"
-                android:layout_marginTop="@dimen/dimen_25"
                 android:layout_marginRight="@dimen/dimen_10">
 
                 <LinearLayout
