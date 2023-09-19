@@ -48,7 +48,7 @@ class SplashActivity : BaseActivity() {
         startActivity(intent)
         finish()
     }
-    private fun showLandingPage(){
+    private fun showLandingPage() {
         val bundle = Bundle()
         bundle.putString(PIN, AppPreferences.getString(PIN,""))
         bundle.putBoolean(IS_PASSCODE, false)

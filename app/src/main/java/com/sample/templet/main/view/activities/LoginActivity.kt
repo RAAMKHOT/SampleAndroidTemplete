@@ -23,12 +23,16 @@ class LoginActivity : BaseActivity(), View.OnClickListener  {
     }
     private fun init(){
         binding.imageViewPasswordVisible.setOnClickListener(this)
+        binding.buttonLogin.setOnClickListener(this)
     }
 
     override fun onClick(view: View?) {
         when (view?.id) {
             R.id.imageViewPasswordVisible -> {
                 onChangePasswordVisibility()
+            }
+            R.id.buttonLogin -> {
+                viewModel.getHeadlines("us","business")
             }
         }
     }
